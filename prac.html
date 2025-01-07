@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <dl>
+      <dt>Description list</dt>
+      <dt>hiii</dt>
+      <dd>how r u</dd>
+    </dl>
+
+    <ul type="disc">
+      <li>Unordered list</li>
+      <li>hello</li>
+      <ul>
+        <li>hiiiiii</li>
+        <li>hoooooo</li>
+      </ul>
+      <li>had food</li>
+    </ul>
+    <ol type="i">
+      <li>Ordered list</li>
+      <ol>
+        <li>hii</li>
+        <li>hello</li>
+      </ol>
+    </ol>
+    <hr />
+    <h2>Html Forms</h2>
+    <form action="backend.php">
+      <input type="hidden" name="tulu05" value="1234" />
+      <label for="name">Name</label>
+      <div>
+        <input type="text" name="myname" id="name" />
+      </div>
+      <br />
+      <label for="role">Role</label>
+      <div>
+        <input type="text" name="myrole" id="role" />
+      </div>
+      <br />
+      <label for="contact">Contact</label>
+      <div>
+        <input type="number" name="mycontact" id="contact" />
+      </div>
+      <br />
+      <div>DOB: <input type="date" name="mydate" /></div>
+      <br />
+      <div>
+        Gender: Male <input type="radio" name="mygender" id="gender" /> Female
+        <input type="radio" name="mygender" id="gender" /> Other
+        <input type="radio" name="mygender" id="gender" />
+      </div>
+      <br />
+      <div>
+        Write about yorself:
+        <textarea name="mytext" cols="60" rows="10"></textarea>
+      </div>
+      <br />
+      <div>
+        I have read the details:
+        <input type="checkbox" name="mydetail" checked />
+      </div>
+      <br />
+      <div>
+        <!-- <label for="transportation">Transportation</label> -->
+        Transportation:
+        <select name="trans">
+          <option value="train">train</option>
+          <option value="metro" selected>metro</option>
+          <option value="car">car</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Submit Now" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
+    <hr />
+    
+      <p>Empty character \u0020; </p>
+  
+  </body>
+</html>
