@@ -1,0 +1,147 @@
+.cb{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.7);
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+}
+.s1 {
+    background-image: url('maintea.png');
+    background-size: cover; /* Ensures the image covers the section */
+    background-position: center; /* Centers the image */
+    height: 85vh; /* Adjust the height as needed */
+    width: 100vw;
+    /* position: relative; */
+}
+
+#logo{
+    position: relative;
+}
+#mainlogo{
+    height: 55px;
+    width: 55px;
+    border: solid white 5px;
+    border-radius: 20%;
+    margin-left: 6px;
+}
+.navbar-nav{
+    margin-left: 680px;
+}
+#navbarNav ul li a {
+    background-color: rgb(221, 205, 180);
+    color: black;
+    display: block;
+    margin: 15px;
+    padding: 3px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbarNav ul li a:hover{
+    color: bisque;
+    background-color: black;
+}
+.welcome{
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 50px;
+    color:rgb(97, 61, 18);
+}
+.b1{
+    color: rgb(79, 58, 32);
+    background-color: white;
+    padding: 5px;
+    border: 2px burlywood solid;
+    border-radius: 8px;
+}
+.b1:hover{
+    background-color: rgb(255, 214, 196);
+    color: black;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+}
+#r1{
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 470px;  
+    background-color: rgb(255, 247, 251);
+}
+#r2{
+    height: 470px;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 1.2rem;
+    padding: 20px;
+    text-align: left;
+}
+#r3{
+    float: left;
+    height: 470px;  
+    /* width: 630px; */
+    background-color: rgb(241, 243, 224);
+}
+#r4{
+    float: right;
+    height: 470px;  
+    background-color: rgb(230, 121, 175);
+    /* width: 630px; */
+}
+.carousel-inner{
+    height: 470px;
+    object-fit: cover;
+}
+#r5{
+    float: left;
+    height: 470px;  
+    /* width: 630px; */
+    background-color: rgb(230, 121, 175);
+}
+#r6{
+    float: right;
+    height: 470px;  
+    background-color: rgb(241, 243, 224);
+    /* width: 630px; */
+}
+#r7{
+    float: left;
+    height: 470px;  
+    /* width: 630px; */
+    background-color: rgb(241, 243, 224);
+}
+#r8{
+    float: right;
+    height: 470px;  
+    background-color: rgb(230, 121, 175);
+    /* width: 630px; */
+}
+.eat{
+    margin: 70px;
+    font-size: large;
+}
+.eat p{
+    margin-top: 20px;
+}
+#abt1{
+    float: left;
+}
+#abt2{
+    float: right;
+    
+}
+#abt2 img{
+    height: 350px;
+    width:450px;
+}
+.extra{
+    background-color: beige;
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+}
+.footer{
+    background-color: rgb(79, 75, 71);
+    color: white;
+    padding: 30px;
+}
